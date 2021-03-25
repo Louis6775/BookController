@@ -1,21 +1,29 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+<<<<<<< HEAD
 using Data;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Models;
+=======
+using BookController.Data;
+using BookController.DTO;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
+using BookController.Models;
+>>>>>>> e4bea3901998594ab8fb264849aff5a06e08fe7b
 using DTO;
 
-namespace BooksController.Controllers
+namespace BookController.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class BooksController : ControllerBase
+    public class BookController : ControllerBase
     {
         private readonly Context _context;
 
-        public BooksController(Context context)
+        public BookController(Context context)
         {
             _context = context;
         }

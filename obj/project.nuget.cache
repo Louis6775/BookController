@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "6ZL/7nlgN6F67Fvao/mkrWE69XwhvRnmsp9H9LiPzj02E5n4En63lsVVPiW42NrRC0UzJWCZ1mVrvKrmdju2Pw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Louis6775\\source\\repos\\BookController\\BookController.csproj",
@@ -64,5 +65,11 @@
     "C:\\Users\\Louis6775\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\Louis6775\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "lzMIAXHwLp16KYJAVWvXOz3HXL79HU4bQQh0CFcGKCCCSwJ2KnV4GCeL0IL8D6ovevmrxlCyCOfOz1wdZfQHcg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\leome\\BookController\\BookController.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> e4bea3901998594ab8fb264849aff5a06e08fe7b
   "logs": []
 }

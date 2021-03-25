@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Louis6775\\source\\repos\\BookController\\BookController.csproj": {}
+    "C:\\Users\\leome\\BookController\\BookController.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Louis6775\\source\\repos\\BookController\\BookController.csproj": {
+    "C:\\Users\\leome\\BookController\\BookController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Louis6775\\source\\repos\\BookController\\BookController.csproj",
+        "projectUniqueName": "C:\\Users\\leome\\BookController\\BookController.csproj",
         "projectName": "BookController",
-        "projectPath": "C:\\Users\\Louis6775\\source\\repos\\BookController\\BookController.csproj",
-        "packagesPath": "C:\\Users\\Louis6775\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Louis6775\\source\\repos\\BookController\\obj\\",
+        "projectPath": "C:\\Users\\leome\\BookController\\BookController.csproj",
+        "packagesPath": "C:\\Users\\leome\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leome\\BookController\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Louis6775\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\leome\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,16 +66,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -85,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
