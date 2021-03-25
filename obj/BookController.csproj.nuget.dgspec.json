@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leome\\BookController\\BookController.csproj": {}
+    "C:\\Users\\Louis6775\\source\\repos\\BookController\\BookController.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leome\\BookController\\BookController.csproj": {
+    "C:\\Users\\Louis6775\\source\\repos\\BookController\\BookController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leome\\BookController\\BookController.csproj",
+        "projectUniqueName": "C:\\Users\\Louis6775\\source\\repos\\BookController\\BookController.csproj",
         "projectName": "BookController",
-        "projectPath": "C:\\Users\\leome\\BookController\\BookController.csproj",
-        "packagesPath": "C:\\Users\\leome\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leome\\BookController\\obj\\",
+        "projectPath": "C:\\Users\\Louis6775\\source\\repos\\BookController\\BookController.csproj",
+        "packagesPath": "C:\\Users\\Louis6775\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Louis6775\\source\\repos\\BookController\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\leome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Louis6775\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,9 +52,17 @@
               "target": "Package",
               "version": "[1.2.3, )"
             },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.1.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.9.0, )"
             }
           },
           "imports": [
@@ -66,6 +75,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -74,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

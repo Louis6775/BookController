@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Models;
+using BookController.Models;
 
 namespace BookController.Data
 {

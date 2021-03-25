@@ -2,10 +2,10 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 <<<<<<< HEAD
-using Data;
+using BookController.Data;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using Models;
+using BookController.Models;
 =======
 using BookController.Data;
 using BookController.DTO;
