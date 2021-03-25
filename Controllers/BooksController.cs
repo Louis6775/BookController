@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using BookController.Data;
-using BookController.DTO;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using BookController.Models;
