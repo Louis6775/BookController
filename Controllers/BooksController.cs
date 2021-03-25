@@ -1,17 +1,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-<<<<<<< HEAD
 using BookController.Data;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using BookController.Models;
-=======
-using BookController.Data;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using BookController.Models;
->>>>>>> e4bea3901998594ab8fb264849aff5a06e08fe7b
+using Models;
 using DTO;
 
 namespace BookController.Controllers
