@@ -11,11 +11,11 @@ namespace BookController.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class BookController : ControllerBase
+    public class BooksController : ControllerBase
     {
         private readonly Context _context;
 
-        public BookController(Context context)
+        public BooksController(Context context)
         {
             _context = context;
         }
