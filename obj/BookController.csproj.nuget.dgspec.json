@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leome\\BookController\\BookController.csproj": {}
+    "C:\\Users\\arabe\\OneDrive\\Bureau\\BookController\\BookController.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leome\\BookController\\BookController.csproj": {
+    "C:\\Users\\arabe\\OneDrive\\Bureau\\BookController\\BookController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leome\\BookController\\BookController.csproj",
+        "projectUniqueName": "C:\\Users\\arabe\\OneDrive\\Bureau\\BookController\\BookController.csproj",
         "projectName": "BookController",
-        "projectPath": "C:\\Users\\leome\\BookController\\BookController.csproj",
-        "packagesPath": "C:\\Users\\leome\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leome\\BookController\\obj\\",
+        "projectPath": "C:\\Users\\arabe\\OneDrive\\Bureau\\BookController\\BookController.csproj",
+        "packagesPath": "C:\\Users\\arabe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arabe\\OneDrive\\Bureau\\BookController\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\leome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arabe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +40,22 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools.DotNet": {
               "target": "Package",
               "version": "[2.0.3, )"
